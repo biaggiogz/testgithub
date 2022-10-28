@@ -12,4 +12,8 @@ public class Car {
 		this.brand = brand;
 	}
 
+        public String color(String name){
+		if(name.equals("BMW")) this.color = "RED LIGHT";	
+	}
+
 }
