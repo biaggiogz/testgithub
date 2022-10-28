@@ -7,6 +7,9 @@ public class Car {
 	String color;
 	String insurance;
 
-
+	Car(String name, String brand){
+		this.name = name;
+		this.brand = brand;
+	}
 
 }
