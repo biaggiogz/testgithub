@@ -5,7 +5,7 @@ public class Car {
 	int km;
 	int doors;
 	String color;
-	String insurance;
+	boolean insurance;
 
 	Car(String name, String brand){
 		this.name = name;
@@ -15,5 +15,8 @@ public class Car {
         public String color(String name){
 		if(name.equals("BMW")) this.color = "RED LIGHT";	
 	}
-
+	
+	public boolean insurance(int doors){
+		if(doors > 2) this.insurance = true
+	}
 }
