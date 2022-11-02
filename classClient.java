@@ -1,9 +1,9 @@
 	public class Client{
 
-	String name;
-	String surname;
-	int age;
-	Float money;
+	private String name;
+	private String surname;
+	private int age;
+	private Float money;
 
 	Client( String name,
         String surname,

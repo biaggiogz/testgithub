@@ -13,7 +13,9 @@ public class Car {
 	}
 
         public String color(String name){
-		if(name.equals("BMW")) this.color = "RED LIGHT";	
+		
+		if(name.equals("BMW")) this.color = "RED LIGHT";
+		if(name.equals("Audi")) this.color = "Green";	
 	}
 	
 	public boolean insurance(int doors){
